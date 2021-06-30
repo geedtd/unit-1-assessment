@@ -23,8 +23,7 @@ function handlePlus()   {
 }
 
 function handleReset() {
-    console.log('party')
     result.style.color = 'black'
     result.innerText = 0
-
+    input.value = 1
 }
