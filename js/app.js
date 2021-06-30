@@ -11,5 +11,5 @@ function handleMinus()  {
 
 }
 function handlePlus()   {
-    result.innerText += parseInt(input.value)
+    result.innerText = parseInt(input.value) + parseInt(result.innerText)
 }
