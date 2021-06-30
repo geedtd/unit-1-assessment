@@ -7,9 +7,9 @@ plus.addEventListener('click', handlePlus)
 minus.addEventListener('click', handleMinus)
 
 function handleMinus()  {
-    console.log('min')
+    result.innerText -= parseInt(input.value)
 
 }
 function handlePlus()   {
-    console.log('plus')
+    result.innerText += parseInt(input.value)
 }
