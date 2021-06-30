@@ -1,3 +1,35 @@
 body {
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
 }
+#result {
+    font-size: 100px;
+}
+.number-input {
+    text-align: center;
+    font-size: 40px;
+    color: #3e3f42;
+    height: 60px;
+    width: 100px;
+    border: solid 8px #3e3f42;
+    border-radius: 10px;
+}
+.operator {
+    color: #3e3f42;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    border: solid 8px #3e3f42;
+    border-radius: 30%;
+}
+.number-input:hover,
+.operator:hover {
+    background-color: #3e3f42;
+    color: white;
+}
+
