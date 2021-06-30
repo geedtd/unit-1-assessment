@@ -11,7 +11,8 @@ body {
     font-size: 100px;
     margin: 0 100px 100px 100px;
 }
-.number-input {
+.number-input,
+#reset {
     text-align: center;
     font-size: 40px;
     color: #3e3f42;
@@ -20,7 +21,7 @@ body {
     border: solid 8px #3e3f42;
     border-radius: 10px;
 }
-.operator {
+.operator  {
     color: #3e3f42;
     font-size: 40px;
     height: 80px;
@@ -28,8 +29,14 @@ body {
     border: solid 8px #3e3f42;
     border-radius: 30%;
 }
+#reset {
+    margin-top: 20px;
+    width: 160px;
+    height: 80px;
+}
 .number-input:hover,
-.operator:hover {
+.operator:hover,
+#reset:hover {
     background-color: #3e3f42;
     color: white;
 }
