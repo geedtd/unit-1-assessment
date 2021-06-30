@@ -9,6 +9,7 @@ body {
 }
 #result {
     font-size: 100px;
+    margin: 0 100px 100px 100px;
 }
 .number-input {
     text-align: center;
