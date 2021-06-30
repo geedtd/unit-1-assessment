@@ -20,6 +20,7 @@ body {
     width: 100px;
     border: solid 8px #3e3f42;
     border-radius: 10px;
+    background-color: white;
 }
 .operator  {
     color: #3e3f42;
@@ -28,6 +29,8 @@ body {
     width: 80px;
     border: solid 8px #3e3f42;
     border-radius: 30%;
+    background-color: white;
+
 }
 #reset {
     margin-top: 20px;
